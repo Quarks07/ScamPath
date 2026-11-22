@@ -38,7 +38,7 @@ final class LocalAdvisor {
             }
             Generation generation = new Generation();
             LlmGenerationConfig config = LlmGenerationConfig.create()
-                    .maxNewTokens(96)
+                    .seqLen(384)
                     .echo(false)
                     .temperature(0.0f)
                     .build();
