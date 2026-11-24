@@ -45,3 +45,7 @@ Pass `-Serial SERIAL` if multiple devices are attached. Installing the model nee
 The prototype uses rules instead of the concept's planned trained classifier. Link checks inspect address syntax inside the supplied chat. The app neither opens the link nor monitors network traffic. The bundled OCR supports Latin script and reads one screenshot at a time. A user may need to correct the extracted text or line order.
 
 The JVM suite exercises synthetic legitimate and suspicious inputs, escalation ordering, rejection of invalid input and the boundary between chat text and the advisory prompt. It is a smoke check. No real-world accuracy claim follows from it.
+
+## Phase 1 report
+
+The [final project report](docs/ScamPath-PS3-Final-Report.pdf) describes the application, model setup, offline test and measurements. The demo and measurements use application revision `05df0b0` on an Android 16 x86-64 emulator. The APK includes ARM64 support. Physical Arm results are pending.
